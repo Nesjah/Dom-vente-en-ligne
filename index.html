@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'achat </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <h1>Nesja Création</h1>
+        <div class="navigation">
+            <ul>
+                  <li><a href="">Les nouveautés</a></li>
+                  <li><a href="">Nos collections</a></li>
+                  <li><a href="">Le lifestyle</a></li>
+            </ul>
+      </div>
+      <div class="connexion">
+            <input type="search" placeholder="Recherche">
+            <button>search</button>
+      </div>
+</header>
+
+<div class="Principal">
+     <div class="Article">
+        <img src="C001.jpeg" alt="Image" class="small-image" >
+        <p>chemise Lin 1 MC</p>
+        <h2 class = "Prix" > 10000 fcfa</h2>
+        <i class="far fa-heart liked" id="btnliked"></i>
+        <button type="button"class="btn btn-outline-success btnplus " id="btnplus">+</button>
+        <input type="text" class="quantité" value="0" disabled>
+           <button type="button" class="btn-outline-warning" id="btnmoins">-</button>
+           <button type="button" class="btn-outline-danger" id="btnremove">suprimer</button>
+           <h6>total: <input type="text" class="total" value="0" disabled> fcfa</h6>
+        </div>
+
+    <div class="Article">
+        <img src="C004.jpeg" alt="Image"class=small-image>
+        <p>chemise Lin 2 ML</p>
+        <h2 class = "Prix" > 15000 fcfa</h2>
+        <i class="far fa-heart liked"></i>
+        <button type="button"class="btn btn-outline-success btnplus ">+</button>
+        <input type="text" class="quantité" value="0" disabled>
+           <button type="button" class="btn-outline-warning">-</button>
+           <button type="button" class="btn-outline-danger">suprimer</button>
+           <h6>total: <input type="text" class="total" value="0" disabled> fcfa</h6>
+    
+    </div>
+    
+    <div class="Article">
+        <img src="C003.jpeg" alt="Image"class="small-image"> 
+        <p>chemise Lin 3 ML</p>
+        <h2 class = "Prix" > 17000 fcfa</h2>
+        <i class="far fa-heart liked"></i>
+        <button type="button"class="btn btn-outline-success btnplus ">+</button>
+        <input type="text" class="quantité" value="0" disabled>
+           <button type="button" class="btn-outline-warning">-</button>
+           <button type="button" class="btn-outline-danger">suprimer</button>
+           <h6>total: <input type="text" class="total" value="0" disabled> fcfa</h6>
+    </div>
+    <div class="total"><h2></h2></div>
+</div>
+    <script src="script.js"></script>
+         
+</body>
+</html>
+
+     
